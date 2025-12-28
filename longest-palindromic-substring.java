@@ -1,11 +1,12 @@
 import java.util.*;
-//https://leetcode.com/problems/longest-palindromic-substring/
-//Approach 
-// let say the string is "bacabad", we are tasked to find the longest palindome substring
-// we first list down all the occurences of each character in the form of a hashmap 
-// so, map = {b:[0,4], a:[1,3,5], c:[2], d:[6]}
-// after we find each character's occurence, we loop over the keys of map ( unique charactes in the string)
-// and find the largest range from the listed occurences
+//  Difficulty :- Medium
+//  https://leetcode.com/problems/longest-palindromic-substring/
+//  Approach 
+//  let say the string is "bacabad", we are tasked to find the longest palindome substring
+//  we first list down all the occurences of each character in the form of a hashmap 
+//  so, map = {b:[0,4], a:[1,3,5], c:[2], d:[6]}
+//  after we find each character's occurence, we loop over the keys of map ( unique charactes in the string)
+//  and find the largest range from the listed occurences
 
 class Solution {
     // if the string is palindrome between the start and end 
